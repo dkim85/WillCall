@@ -1,0 +1,14 @@
+/Will Call button - Front end main page
+
+<button style="background-image: linear-gradient(0deg, yellow, yellow); color: red; animation: rotate-gradient 2s linear infinite; font-weight: bold;" onclick="window.location.href='https://www.fhpkg.com/will-call-local-pick-up';">Will Call Instructions</button>
+
+<style>
+    @keyframes rotate-gradient {
+        from {
+            background-image: linear-gradient(0deg, yellow, yellow);
+        }
+        to {
+            background-image: linear-gradient(360deg, yellow, yellow);
+        }
+    }
+</style>
